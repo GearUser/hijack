@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = "95937bcf6bc0938f263fc7ad96959c6d"
     LOG_CHANNEL = -1001763491746
     UPDATES_CHANNEL = None # Without `@` LOL
-        AUTH_USERS = "1443454117"
+        AUTH_USERS = 1443454117
     # array to store the channel ID who are authorized to use the bot
     # dont u fucking remove this id 😤
     TG_BOT_TOKEN = "5302929820:AAEsKXElRmQ1vcwYwRYmQIYstnKPzLQF0-w"
