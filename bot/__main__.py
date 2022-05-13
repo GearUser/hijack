@@ -183,7 +183,7 @@ if __name__ == "__main__" :
         if message.chat.id not in AUTH_USERS:
             return await message.reply_text("You are not authorised to use this bot contact @TheBatamanShan")
         os.system('rm thumb.jpg')
-        await message.download(file_name='/app/thumb.jpg')
+        await message.download(file_name='/thumb.jpg')
         await message.reply_text('Thumbnail Added')
         
     @app.on_message(filters.incoming & filters.command(["cancel", f"cancel@{BOT_USERNAME}"]))
