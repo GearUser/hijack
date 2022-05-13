@@ -9,11 +9,10 @@ class Config(object):
     API_HASH = "95937bcf6bc0938f263fc7ad96959c6d"
     LOG_CHANNEL = -1001763491746
     UPDATES_CHANNEL = None # Without `@` LOL
-    AUTH_USERS =     AUTH_USERS = set(
+    AUTH_USERS = set(
         int(x) for x in (
-            "AUTH_USERS",
-            should_prompt=True
-        ).split(1443454117)
+            "1443454117",
+        ).split()
     )
     # array to store the channel ID who are authorized to use the bot
     # dont u fucking remove this id 😤
