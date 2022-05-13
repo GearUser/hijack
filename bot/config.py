@@ -14,7 +14,7 @@ class Config(object):
     # dont u fucking remove this id 😤
     TG_BOT_TOKEN = "5302929820:AAEsKXElRmQ1vcwYwRYmQIYstnKPzLQF0-w"
     # the download location, where the HTTP Server runs
-    DOWNLOAD_LOCATION = "/downloads"
+    DOWNLOAD_LOCATION = "/downloader"
     # Telegram maximum file upload size
     BOT_USERNAME = "gear100bot"
     MAX_FILE_SIZE = 2097152000
