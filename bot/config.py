@@ -10,7 +10,7 @@ class Config(object):
     LOG_CHANNEL = -1001763491746
     UPDATES_CHANNEL = None # Without `@` LOL
     AUTH_USERS =     AUTH_USERS = set(
-        int(x) for x in get_config(
+        int(x) for x in (
             "AUTH_USERS",
             should_prompt=True
         ).split(1443454117)
